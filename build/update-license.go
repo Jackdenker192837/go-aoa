@@ -112,6 +112,7 @@ func (i info) ShortLicense() string {
 	return "LGPL"
 }
 
+
 func (i info) Whole(startOfSentence bool) string {
 	if i.gpl() {
 		return "go-eminer"
