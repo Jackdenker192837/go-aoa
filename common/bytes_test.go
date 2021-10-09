@@ -27,6 +27,7 @@ type BytesSuite struct{}
 
 var _ = checker.Suite(&BytesSuite{})
 
+
 func (s *BytesSuite) TestCopyBytes(c *checker.C) {
 	data1 := []byte{1, 2, 3, 4}
 	exp1 := []byte{1, 2, 3, 4}
