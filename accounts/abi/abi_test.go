@@ -31,6 +31,7 @@ import (
 	"github.com/Aurorachain-io/go-aoa/crypto"
 )
 
+
 const jsondata = `
 [
 	{ "type" : "function", "name" : "balance", "constant" : true },
