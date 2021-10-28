@@ -32,6 +32,7 @@ type DelegateSuite struct {
 
 var toAddr = common.BytesToAddress
 
+
 func TestDelegateDB_Dump(t *testing.T) {
 	d, err := getDelegateSuite()
 	if err != nil {
