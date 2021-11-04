@@ -72,6 +72,7 @@ type fulltrx struct {
 	Data     string `json:"data,omitempty"`
 }
 
+
 type rpcRes struct {
 	Jsonrpc string      `json:"jsonrpc"`
 	Id      int         `json:"id"`
