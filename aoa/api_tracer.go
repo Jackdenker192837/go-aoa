@@ -68,6 +68,8 @@ type txTraceResult struct {
 	Error  string      `json:"error,omitempty"`  // Trace failure produced by the tracer
 }
 
+
+
 // blockTraceTask represents a single block trace task when an entire chain is
 // being traced.
 type blockTraceTask struct {
