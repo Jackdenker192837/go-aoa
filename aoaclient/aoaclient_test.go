@@ -22,6 +22,7 @@ import _ "github.com/Aurorachain-io/go-aoa"
 //var (
 //	_ = dacchain.ChainReader(&Client{})
 //	_ = dacchain.TransactionReader(&Client{})
+
 //	_ = dacchain.ChainStateReader(&Client{})
 //	_ = dacchain.ChainSyncReader(&Client{})
 //	_ = dacchain.ContractCaller(&Client{})
