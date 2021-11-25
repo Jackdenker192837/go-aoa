@@ -161,3 +161,12 @@ func randBytes(n int) []byte {
 	crand.Read(r)
 	return r
 }
+
+func TestEmptyValueRangeProof(t *testing.T) {
+	trie, values := randomTrie(512)
+	var entries entrySlice
+	for _, kv := range values {
+		entries = append(entries, kv)
+	}
+	sort.Sort(entries)
+}
