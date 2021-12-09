@@ -34,6 +34,7 @@ func TestChainIndexerSingle(t *testing.T) {
 	}
 }
 
+
 // Runs multiple tests with randomized parameters and different number of
 // chain backends.
 func TestChainIndexerWithChildren(t *testing.T) {
