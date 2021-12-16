@@ -103,6 +103,7 @@ func TestClientCancelWebsocket(t *testing.T) { testClientCancel("ws", t) }
 func TestClientCancelHTTP(t *testing.T)      { testClientCancel("http", t) }
 func TestClientCancelIPC(t *testing.T)       { testClientCancel("ipc", t) }
 
+
 // This test checks that requests made through CallContext can be canceled by canceling
 // the context.
 func testClientCancel(transport string, t *testing.T) {
