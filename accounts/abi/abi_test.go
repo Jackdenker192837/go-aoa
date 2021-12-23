@@ -56,6 +56,7 @@ const jsondata2 = `
 	{ "type" : "function", "name" : "sliceMultiAddress", "constant" : false, "inputs" : [ { "name" : "a", "type" : "address[]" }, { "name" : "b", "type" : "address[]" } ] }
 ]`
 
+
 func TestReader(t *testing.T) {
 	Uint256, _ := NewType("uint256")
 	exp := ABI{
