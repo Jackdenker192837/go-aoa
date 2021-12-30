@@ -42,6 +42,8 @@ type candidateData struct {
 	LastBlockHeight uint64
 }
 
+
+
 // Tests block header storage and retrieval operations.
 func TestHeaderStorage(t *testing.T) {
 	db, _ := emdb.NewMemDatabase()
