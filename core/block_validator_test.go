@@ -27,6 +27,7 @@ import (
 	"time"
 )
 
+
 // Tests that simple header verification works, for both good and bad blocks.
 func TestHeaderVerification(t *testing.T) {
 	// Create a simple chain to verify
