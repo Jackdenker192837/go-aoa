@@ -86,6 +86,7 @@ func TestStack(t *testing.T) {
 	}
 }
 
+
 func TestOpcodes(t *testing.T) {
 	tracer, err := New("{opcodes: [], step: function(log) { this.opcodes.push(log.op.toString()); }, fault: function() {}, result: function() { return this.opcodes; }}")
 	if err != nil {
