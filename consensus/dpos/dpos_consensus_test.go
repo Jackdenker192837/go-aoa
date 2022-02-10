@@ -22,6 +22,7 @@ import (
 	"testing"
 )
 
+
 func TestBlockReward(t *testing.T) {
 	// begin with 100 reward
 	var (
