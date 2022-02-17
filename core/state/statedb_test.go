@@ -62,6 +62,7 @@ func TestUpdateLeaks(t *testing.T) {
 	}
 }
 
+
 // Tests that no intermediate state of an object is stored into the database,
 // only the one right before the commit.
 func TestIntermediateLeaks(t *testing.T) {
