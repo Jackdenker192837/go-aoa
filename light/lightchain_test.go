@@ -36,6 +36,7 @@ var (
 )
 
 
+
 // makeHeaderChain creates a deterministic chain of headers rooted at parent.
 func makeHeaderChain(parent *types.Header, n int, db emdb.Database, seed int) []*types.Header {
 	blocks, _ := core.GenerateChain(params.TestChainConfig, types.NewBlockWithHeader(parent), dpos.New(), db, n, func(i int, b *core.BlockGen) {
